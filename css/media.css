@@ -1,0 +1,592 @@
+@media (max-width: 767px) {
+
+    /* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
+    .jumbotron {
+        background: #FFFFFF;
+        min-height: 300px !important;
+    }
+
+    .jumbotron__content {
+
+        padding: 30px 5px 0px 5px;
+    }
+
+    .jumbotron__header-text {
+        color: #000000;
+        font-size: 26px;
+        font-family: "Proxima Nova", sans-serif;
+        letter-spacing: 0.16px;
+        line-height: 29px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .jumbotron__text {
+        width: 268px;
+        opacity: 0.9;
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 14px !important;
+        font-weight: 400;
+        letter-spacing: 0.17px;
+        line-height: 24px;
+        height: auto;
+        padding-bottom: 35px !important;
+    }
+
+    .jumbotron-container-button {
+        height: auto;
+    }
+
+    .tab-block__header {
+        width: 225px;
+        margin: auto;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        letter-spacing: 0.14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .tab-block__menu li {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+
+    .tab-block__menu li:hover {
+        background: rgb(223, 222, 222);
+    }
+
+    .tab-image {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .tab-image img {
+        width: 80px;
+        height: 74px;
+        margin-left: 40%;
+    }
+
+    .tab-content__header {
+        max-width: 253px;
+        color: #1D1C1C;
+        font-family: "Proxima Nova";
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .tab-content__text {
+        width: 228px;
+        opacity: 0.5;
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 14px;
+        letter-spacing: 0.19px;
+        line-height: 24px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .description-header-text {
+        padding-top: 40px;
+    }
+
+    .tab-header-text {
+        width: 162px;
+        margin: auto;
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        letter-spacing: 0.16px;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .tab-slider-container {
+        height: 570px;
+    }
+
+    #quote-carousel2>a.right.carousel-control,
+    #quote-carousel2>a.left.carousel-control,
+    #quote-carousel2>ol {
+        top: 420px;
+    }
+
+    #quote-carousel2 a i {
+        font-size: 18px;
+    }
+
+    #quote-carousel>a.right.carousel-control.specialist-carousel-control.mob,
+
+    #quote-carousel>a.left.carousel-control.specialist-carousel-control.mob {
+        top: 345px;
+    }
+
+    #quote-carousel>ol {
+        padding-bottom: 135px;
+    }
+
+    .tab-slider img {
+        height: 168px;
+        width: 280px;
+        background-color: #F5F5F5;
+        padding-bottom: 15px;
+        margin-left: 30px;
+    }
+
+    .tab-slider h2 {
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        letter-spacing: 0.27px;
+        line-height: 32px;
+        padding: 5px;
+    }
+
+    .tab-slider p {
+        height: 176px;
+        max-width: 350px;
+        opacity: 0.6;
+        color: #1D1C1C;
+
+        font-family: "Proxima Nova";
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .carousel-control.left,
+    .carousel-control.right {
+        top: 425px;
+        position: absolute;
+        color: #000000;
+        background: #FFFFFF;
+        font-size: 25px;
+    }
+
+    .carousel-indicators li {
+        background-color: #E4E4E4;
+        margin: 5px;
+    }
+
+    .carousel-indicators .active {
+        background-color: #A3A3A3;
+        margin: 5px;
+    }
+
+    .slider-header__text {
+        padding-top: 40px;
+    }
+
+    .slider-card {
+        top: 50px;
+        width: auto;
+    }
+
+    .slider-card img {
+        display: block;
+        margin: auto;
+    }
+
+    .proffession {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .name {
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 16px;
+        letter-spacing: 0.27px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .description-proffession {
+        width: 260px;
+        margin: auto;
+        color: #1D1C1C;
+        font-family: "Proxima Nova";
+        font-size: 12px;
+        letter-spacing: 0.22px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    #quote-carousel .carousel-control {
+        font-size: 1.5em;
+    }
+
+    body>div.slider-specialist>div {
+        height: 350px;
+    }
+
+    .slider-specialist {
+        height: 520px;
+    }
+
+    #quote-carousel2>div {
+        height: 450px;
+    }
+
+    #quote-carousel .carousel-indicators {
+        padding-bottom: 25px;
+    }
+
+    .blog-content {
+        padding-top: 50px;
+    }
+
+    .blog-content-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog-content img {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+
+    .blog-header__text {
+        padding: 15px 0;
+        width: 283px;
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .blog-text {
+        width: 271px;
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        padding-bottom: 40px;
+        margin: auto;
+    }
+
+    .blog {
+        height: 650px;
+        padding: 0;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .company-header {
+
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        letter-spacing: 0.16px;
+        line-height: 24px;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        height: 80px;
+    }
+
+    .slider-company {
+        height: 500px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .company-image {
+        height: 50px;
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    #quote-carousel3 {
+        padding: 0;
+    }
+
+
+    /* CONTACTS */
+    .maps {
+        max-height: 400px;
+    }
+
+    .block1 {
+        height: auto;
+    }
+
+    .block1-text__xs {
+        margin: 30px 0;
+        color: #000000;
+        /* font-family: "Proxima Nova"; */
+        font-size: 18px;
+        letter-spacing: 0.14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .block1-text {
+        height: 19px;
+        width: 144px;
+        color: #000000;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 0.31px;
+        line-height: 16px;
+    }
+
+    .block1-col {
+        margin-bottom: 50px;
+        /* margin-left: 30px; */
+    }
+
+    .block2 {
+        height: 480px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    body>div.block2>div>div.center-block2>div {
+        height: auto;
+    }
+
+    .block2-header {
+        width: 223px;
+        margin: auto;
+        color: #000000;
+        /* font-family: "Proxima Nova"; */
+        font-size: 18px;
+        letter-spacing: 0.14px;
+        line-height: 22px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .block2-social-icon {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .footer {
+        background: #FFFFFF;
+        padding-top: 0;
+        min-height: 350px;
+    }
+
+    .footer-menu {
+        margin: 0;
+        padding-top: 25px;
+    }
+
+    .footer-menu li a {
+        color: #000000;
+        font-family: "Open Sans";
+        font-size: 14px;
+        letter-spacing: 0.31px;
+        line-height: 19px;
+    }
+
+    body>div.footer>div>div.col-lg-8>div:nth-child(1)>ul>li:nth-child(1)>a {
+        padding-right: 0;
+    }
+
+    .footer-menu li {
+        height: 40px;
+    }
+
+    .footer-social-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-social-icon {
+        display: flex;
+        justify-content: center;
+        /* min-height: 200px; */
+    }
+
+
+    .footer-social-icon img {
+        margin: 20px;
+    }
+
+    .footer-social-icon-pay img {
+        justify-items: center;
+        margin: 5px;
+    }
+
+    .footer-social-icon-pay {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .question-bottom-container {
+        padding: 0;
+        height: 150px;
+    }
+
+    .footer-text-block p {
+        padding-top: 25px;
+        height: 68px;
+        width: 211px;
+        opacity: 0.6;
+        margin: auto;
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 14px;
+        letter-spacing: 0.25px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    .footer-text-block a {
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .footer-text-block p {
+        opacity: 0.6;
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 14px;
+        letter-spacing: 0.25px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    .blog-content-image {
+        display: block;
+        margin: auto;
+    }
+
+    #quote-carousel {
+        height: 425px;
+    }
+
+    .block1-text,
+    .block1-header {
+        margin: 0;
+        margin-left: 45px;
+    }
+
+    .block1-col {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .block1 img {
+        position: relative;
+        left: 25px;
+    }
+
+    #quote-carousel2>ol {
+        padding-top: 15px;
+    }
+
+    .question-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    body>div.block-questions>p.questions-header.text-center {
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0.14px;
+        line-height: 21px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    .block-questions ul li a {
+        color: #1D1C1C;
+        font-family: Roboto;
+        font-size: 14px;
+        letter-spacing: 0.25px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .panel-body p {
+        color: #000000;
+        font-family: "Proxima Nova";
+        font-size: 14px;
+        letter-spacing: 0.31px;
+        line-height: 17px;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    .block1 {
+        position: relative;
+        min-height: 250px;
+        padding-bottom: 20px;
+    }
+
+    .block1-inner {
+        min-height: 250px;
+
+    }
+
+    .block1-col {
+        min-height: 80px;
+
+    }
+}
+
+
+/*
+    /** MEDIA QUERIES */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #quote-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 10px;
+        height: 10px;
+    }
+
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 12px;
+        height: 12px;
+    }
+}

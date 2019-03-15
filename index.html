@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Тестовое задание!</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400,700" rel="stylesheet">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" class="img-responsive"></a>
+    </div>
+    <ul class="nav navbar-nav navbar-link__item hidden-xs">
+      <li><a href="#">Частным лицам</a></li>
+      <li><a href="#">Бизнесу</a></li>
+    </ul>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-menu">
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="questions.html">Вопросы</a></li>
+        <li><a href="#">Блог</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+      </ul>
+      <form class="navbar-form navbar-right hidden-xs" role="search">
+        <button type="submit" class="btn button-success pull-right">Задать вопрос</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </nav>
+
+  <div class="jumbotron">
+    <div class="jumbotron__content">
+      <div class="row">
+        <h2 class="jumbotron__header-text text-center">Мы служба дистанционной психологической помощи.</h2>
+      </div>
+      <div class="row">
+        <p class="jumbotron__text text-center">Мы команда психологов, психотерапевтов, менеджеров и других
+          специалистов – созданы для того, чтобы помочь любому человеку
+          стать хотя бы немного счастливее.</p>
+      </div>
+      <div class="jumbotron-container-button">
+        <button class="button-success jumbotron-button">Подробнее</button>
+      </div>
+    </div>
+  </div>
+
+  <!--[if !IE]><!-->
+  <!-- TAB-BLOCK -->
+  <div class="tab-block">
+    <h2 class="tab-block__header text-center">В каких ситуациях можно обратиться к нам</h2>
+    <div class='nav-wrapper'>
+      <ul class="nav tab-block__menu">
+        <li><a data-toggle="tab" href="#home">Кризис</a></li>
+        <li><a data-toggle="tab" href="#menu1">Семья</a></li>
+        <li><a data-toggle="tab" href="#menu2">Дети</a></li>
+        <li><a data-toggle="tab" href="#menu3">Коммуникации</a></li>
+        <li><a data-toggle="tab" href="#menu4">Мужчина и женщина</a></li>
+        <li><a data-toggle="tab" href="#menu5">Развитие</a></li>
+      </ul>
+      <div id='underline'></div>
+    </div>
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <div class="row">
+          <div class="tab-image col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+            <img src="img/1/family.png" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+            <p class="tab-content__header">Поможем в поиске путей разрешения бытового семейного конфликта, найти и
+              устранить причины конфликтов.
+              сгладить проблемы поколений. Поможем восстановить целостность семьи.</p>
+            <p class="tab-content__text">Переживание потери близких. Стресс, Апатия, Тревоги. Страхи, Проблемы здоровья
+              Кризисы возраста Зависимости и вредные привычки</p>
+          </div>
+        </div>
+      </div>
+      <div id="menu1" class="tab-pane fade">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <img src="img/1/family.png" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+            <p class="tab-content__header">Поможем в поиске путей разрешения бытового семейного конфликта, найти и
+              устранить причины конфликтов.
+              сгладить проблемы поколений. Поможем восстановить целостность семьи.</p>
+            <p class="tab-content__text">Переживание потери близких. Стресс, Апатия, Тревоги. Страхи, Проблемы здоровья
+              Кризисы возраста Зависимости и вредные привычки</p>
+          </div>
+        </div>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <h3>Menu 2</h3>
+        <p>Some content in menu 2.</p>
+      </div>
+      <div id="menu3" class="tab-pane fade">
+        <h3>Menu 3</h3>
+        <p>Some content in menu 2.</p>
+      </div>
+      <div id="menu4" class="tab-pane fade">
+        <h3>Menu 4</h3>
+        <p>Some content in menu 2.</p>
+      </div>
+      <div id="menu5" class="tab-pane fade">
+        <h3>Menu 5</h3>
+        <p>Some content in menu 2.</p>
+      </div>
+    </div>
+  </div>
+  <!-- <![endif]-->
+
+  <div class="description-block hidden-xs">
+    <p class="description-header-text text-center"> Как мы работаем </p>
+    <div class="description-block__line">
+      <img src="img/description/d1.png" alt="" class="image-left">
+      <h2 class="">Удобно</h2>
+      <p>Мы оказываем преимущественно дистанционные консультации – по телефону или через skype. Такой вид
+        консультаций по своей результативности является ничем не хуже очной. Кроме того, вы экономите время на дорогу
+        и не заботитесь о том, как вы выглядите и вообще можете находиться, где угодно. </p>
+    </div>
+    <div class="description-block__line">
+      <img src="img/description/d2.png" alt="" class="image-right">
+      <h2 class="">Эффективно</h2>
+      <p>Мы не обещаем чуда, но предлагаем увидеть жизненные альтернативы и научиться их реализовывать. В отличие от
+        телефона доверия, где коммуникаций носит разовый характер и направлена на разрешение кризиса сиюминутно, мы
+        готовы «вести» человека, пройти с ним вместе сложный жизненный этап или переосмыслить ситуацию в поисках того
+        пути, которые наиболее ему подходит.</p>
+    </div>
+    <div class="description-block__line">
+      <img src="img/description/d3.png" alt="" class="image-left">
+      <h2 class="">Конфиденциально</h2>
+      <p>Многие люди уже получили помощь у нас. Иногда мы приводим примеры реальных случаев потому, что многие могут
+        себя в них узнать, примерить на себя и ознакомиться с ценными наблюдениями психологов. Однако основная
+        индивидуальная работа начнется при личном обращении. Мы позаботимся о том, чтобы все осталось строго между
+        нами.</p>
+    </div>
+    <div class="description-block__line">
+      <img src="img/description/d4.png" alt="" class="image-right">
+      <h2 class="">С пониманием</h2>
+      <p>Мы не считаем потребность в помощи слабостью или изъяном. Если мы и оцениваем обращение человека за помощью,
+        то скорее как естественный шаг, говорящий о его готовности к переменам и развитию.</p>
+    </div>
+  </div>
+
+  <div class="tab-slider-container visible-xs">
+    <p class="description-header-text tab-header-text text-center"> Как мы работаем </p>
+    <div class="slider-container">
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel2">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel2" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel2" data-slide-to="1"></li>
+          <li data-target="#quote-carousel2" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <!-- Quote 1 -->
+          <div class="item active">
+            <div class="col-xs-12">
+              <div class="tab-slider">
+                <img src="img/description/d1.png" alt="">
+                <h2 class="text-center">Удобно</h2>
+                <p>Мы оказываем преимущественно дистанционные консультации – по телефону или через skype. Такой вид
+                  консультаций по своей результативности является ничем не хуже очной. Кроме того, вы экономите время
+                  на дорогу
+                  и не заботитесь о том, как вы выглядите и вообще можете находиться, где угодно. </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12">
+              <div class="tab-slider">
+                <img src="img/description/d2.png" alt="">
+                <h2 class="text-center">Эффективно</h2>
+                <p>Мы не обещаем чуда, но предлагаем увидеть жизненные альтернативы и научиться их реализовывать. В
+                  отличие от
+                  телефона доверия, где коммуникаций носит разовый характер и направлена на разрешение кризиса
+                  сиюминутно, мы
+                  готовы «вести» человека, пройти с ним вместе сложный жизненный этап или переосмыслить ситуацию в
+                  поисках того
+                  пути, которые наиболее ему подходит.</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12">
+              <div class="tab-slider">
+                <img src="img/description/d3.png" alt="">
+                <h2 class="text-center">Конфиденциально</h2>
+                <p>Многие люди уже получили помощь у нас. Иногда мы приводим примеры реальных случаев потому, что
+                  многие могут
+                  себя в них узнать, примерить на себя и ознакомиться с ценными наблюдениями психологов. Однако
+                  основная
+                  индивидуальная работа начнется при личном обращении. Мы позаботимся о том, чтобы все осталось строго
+                  между
+                  нами.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a data-slide="prev" href="#quote-carousel2" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel2" class="right carousel-control" stlye><i class="fa fa-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-specialist">
+    <div class="slider-container">
+      <h2 class="text-center slider-header__text"> Наши специалисты </h2>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators specialist-indicator-list">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner carousel-inner-specialist">
+          <!-- Quote 1 -->
+          <div class="item active">
+            <div class="col-md-4 col-lg-4 col-xs-12">
+              <div class="slider-card">
+                <img src="img/avatar.PNG" alt="">
+                <p class="proffession">
+                  Психотерапевт
+                </p>
+                <p class="name">
+                  Мария Петровна
+                </p>
+                <p class="description-proffession">
+                  Опыт работы: 25 лет
+                  Окончил Ярославский медицинский университет. Работал в поликлинике №2. Врачом стать мечтал, эта
+                  профессия
+                  нравится потому, что она нужна людям.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 hidden-xs">
+              <div class="slider-card">
+                <img src="img/avatar.PNG" alt="">
+                <p class="proffession">
+                  Психотерапевт
+                </p>
+                <p class="name">
+                  Елизавета Сергеевна
+                </p>
+                <p class="description-proffession">
+                  Опыт работы: 25 лет
+                  Окончил Ярославский медицинский университет. Работал в поликлинике №2. Врачом стать мечтал, эта
+                  профессия
+                  нравится потому, что она нужна людям.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 hidden-xs">
+              <div class="slider-card">
+                <img src="img/avatar.PNG" alt="">
+                <p class="proffession">
+                  Психотерапевт
+                </p>
+                <p class="name">
+                  Елизавета Сергеевна
+                </p>
+                <p class="description-proffession">
+                  Опыт работы: 25 лет
+                  Окончил Ярославский медицинский университет. Работал в поликлинике №2. Врачом стать мечтал, эта
+                  профессия
+                  нравится потому, что она нужна людям.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-md-4 col-lg-4 col-xs-12">
+              <div class="slider-card">
+                <img src="img/avatar.PNG" alt="">
+                <p class="proffession">
+                  Психотерапевт
+                </p>
+                <p class="name">
+                  Елизавета Сергеевна
+                </p>
+                <p class="description-proffession">
+                  Опыт работы: 25 лет
+                  Окончил Ярославский медицинский университет. Работал в поликлинике №2. Врачом стать мечтал, эта
+                  профессия
+                  нравится потому, что она нужна людям.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 hidden-xs">
+              <div class="slider-card">
+                <img src="img/avatar.PNG" alt="">
+                <p class="proffession">
+                  Психотерапевт
+                </p>
+                <p class="name">
+                  Мария Петровна
+                </p>
+                <p class="description-proffession">
+                  Опыт работы: 25 лет
+                  Окончил Ярославский медицинский университет. Работал в поликлинике №2. Врачом стать мечтал, эта
+                  профессия
+                  нравится потому, что она нужна людям.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 hidden-xs">
+              <div class="slider-card">
+                <img src="img/avatar.PNG" alt="">
+                <p class="proffession">
+                  Психотерапевт
+                </p>
+                <p class="name">
+                  Елизавета Сергеевна
+                </p>
+                <p class="description-proffession">
+                  Опыт работы: 25 лет
+                  Окончил Ярославский медицинский университет. Работал в поликлинике №2. Врачом стать мечтал, эта
+                  профессия
+                  нравится потому, что она нужна людям.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-md-4 col-lg-4 col-xs-12">
+              <div class="slider-card">
+                <img src="img/avatar.PNG" alt="">
+                <p class="proffession">
+                  Психотерапевт
+                </p>
+                <p class="name">
+                  Елизавета Сергеевна
+                </p>
+                <p class="description-proffession">
+                  Опыт работы: 25 лет
+                  Окончил Ярославский медицинский университет. Работал в поликлинике №2. Врачом стать мечтал, эта
+                  профессия
+                  нравится потому, что она нужна людям.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 hidden-xs">
+              <div class="slider-card">
+                <img src="img/avatar.PNG" alt="">
+                <p class="proffession">
+                  Психотерапевт
+                </p>
+                <p class="name">
+                  Мария Петровна
+                </p>
+                <p class="description-proffession">
+                  Опыт работы: 25 лет
+                  Окончил Ярославский медицинский университет. Работал в поликлинике №2. Врачом стать мечтал, эта
+                  профессия
+                  нравится потому, что она нужна людям.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 hidden-xs">
+              <div class="slider-card">
+                <img src="img/avatar.PNG" alt="">
+                <p class="proffession">
+                  Психотерапевт
+                </p>
+                <p class="name">
+                  Елизавета Сергеевна
+                </p>
+                <p class="description-proffession">
+                  Опыт работы: 25 лет
+                  Окончил Ярославский медицинский университет. Работал в поликлинике №2. Врачом стать мечтал, эта
+                  профессия
+                  нравится потому, что она нужна людям.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control specialist-carousel-control mob"><i
+            class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control specialist-carousel-control mob"><i
+            class="fa fa-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog">
+    <div class="blog-content">
+      <div class="blog-content-link col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2 class="pull-left">Блог</h2>
+        <h4 class="pull-right hidden-xs"><a>Все статьи</a></h4>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="blog-content-image col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <img src="img/blog-image.PNG" alt="">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <p class="blog-header__text">Итак, вы хотите принимать
+            деньги</p>
+          <p class="blog-text">Как принимать платежи наличными,
+            картой и в интернете. ФЗ-54 и не только</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="blog-content-image col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <img src="img/blog-image2.PNG" alt="">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <p class="blog-header__text">Итак, вы хотите принимать
+            деньги</p>
+          <p class="blog-text">Как принимать платежи наличными,
+            картой и в интернете. ФЗ-54 и не только</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-company">
+    <h2 class="text-center company-header"> Нам доверяют </h2>
+    <div class="carousel slide" data-ride="carousel" id="quote-carousel3">
+      <!-- Bottom Carousel Indicators -->
+      <div class="carousel-inner carousel-inner-company">
+        <!-- Quote 1 -->
+        <div class="item active">
+          <div class=" company-image col-md-3 col-lg-4 col-xs-12">
+            <img src="https://via.placeholder.com/180x50" alt="">
+          </div>
+          <div class=" company-image col-md-4 col-lg-4 col-xs-12">
+            <img src="https://via.placeholder.com/180x50" alt="">
+          </div>
+          <div class="company-image col-md-4 col-lg-4 col-xs-12">
+            <img src="https://via.placeholder.com/180x50" alt="">
+          </div>
+        </div>
+        <div class="item">
+          <div class="company-image col-md-4 col-lg-4 col-xs-12">
+            <img src="https://via.placeholder.com/180x50" alt="">
+          </div>
+          <div class="company-image col-md-4 col-lg-4 col-xs-12">
+            <img src="https://via.placeholder.com/180x50" alt="">
+          </div>
+          <div class="company-image col-md-4 col-lg-4 col-xs-12">
+            <img src="https://via.placeholder.com/180x50" alt="">
+          </div>
+        </div>
+        <div class="item">
+          <div class="company-image col-md-4 col-lg-4 col-xs-12">
+            <img src="https://via.placeholder.com/180x50" alt="">
+          </div>
+          <div class="company-image col-md-4 col-lg-4 col-xs-12">
+            <img src="https://via.placeholder.com/180x50" alt="">
+          </div>
+          <div class="company-image col-md-4 col-lg-4 col-xs-12">
+            <img src="https://via.placeholder.com/180x50" alt="">
+          </div>
+        </div>
+      </div>
+      <a data-slide="prev" href="#quote-carousel3" class="left carousel-control hidden-xs company-control"><i class="fa fa-chevron-left"></i></a>
+      <a data-slide="next" href="#quote-carousel3" class="right carousel-control hidden-xs company-control"><i class="fa fa-chevron-right"></i></a>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-inner">
+      <div class="col-lg-8">
+        <div class="col-lg-12">
+          <ul class="nav navbar-nav footer-menu">
+            <li><a href="">Услуги</a></li>
+            <li><a href="">О нас</a></li>
+            <li><a href="">Блог</a></li>
+            <li><a href="questions.html">Вопросы</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-12 hidden-xs">
+          <p>© 2017, ООО «Международный Психологический Центр» Конфидициальность</p>
+        </div>
+        <div class="col-lg-12 hidden-xs">
+          <a> Разработано <img src="https://via.placeholder.com/97x17" alt=""></a>
+        </div>
+      </div>
+      <div class="col-lg-4 hidden-xs">
+        <div class="col-lg-6 si">
+          Мы в соц сетях
+          <img src="https://via.placeholder.com/23x23" alt="">
+          <img src="https://via.placeholder.com/23x23" alt="">
+          <img src="https://via.placeholder.com/23x23" alt=""> <br>
+          <img src="https://via.placeholder.com/23x23" alt="">
+          <img src="https://via.placeholder.com/23x23" alt="">
+          <img src="https://via.placeholder.com/23x23" alt="">
+        </div>
+        <div class="col-lg-6 si">Мы принимаем
+          <img src="https://via.placeholder.com/23x23" alt="">
+          <img src="https://via.placeholder.com/23x23" alt="">
+          <img src="https://via.placeholder.com/23x23" alt="">
+        </div>
+      </div>
+      <div class="footer-social-container visible-xs">
+        <div class="footer-social-icon">
+          <img src="https://via.placeholder.com/23x23" alt="">
+          <img src="https://via.placeholder.com/23x23" alt="">
+          <img src="https://via.placeholder.com/23x23" alt="">
+        </div>
+        <div class="footer-social-icon-pay">
+          <img src="img/footer-icon/yandex_dengi.png" alt="">
+          <img src="img/footer-icon/visa.png" alt="">
+          <img src="img/footer-icon/mastercard.png" alt="">
+        </div>
+        <div class="footer-text-block">
+          <a>Разработано <img src="img/footer-icon/appvelox.png" alt=""></a>
+          <p>
+            © 2017, ООО «Международный
+            Психологический Центр» </p>
+          <p>
+            Конфидициальность
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
